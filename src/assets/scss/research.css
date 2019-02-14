@@ -1,0 +1,17 @@
+.classes-state-research-btn {
+  background-color: #2A9FD8 !important;
+  height: 45px; }
+
+.MuiButtonBase-root-27.classes-state-research-btn-move, .MuiButton-root-1.classes-state-research-btn-move {
+  background-color: transparent !important;
+  color: black;
+  min-height: 18px;
+  border-radius: 16px;
+  margin-right: 5px;
+  padding: 0px 10px;
+  display: inline-block;
+  width: auto;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: none; }

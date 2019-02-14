@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommentHeader>  <CommentHeader> snapshot  1`] = `
+<CommentHeader
+  classes={
+    Object {
+      "contentFooter": "CommentHeader-contentFooter-5",
+      "contentHeader": "CommentHeader-contentHeader-4",
+      "contentWrapper": "CommentHeader-contentWrapper-3",
+      "header": "CommentHeader-header-2",
+      "root": "CommentHeader-root-1",
+    }
+  }
+/>
+`;

@@ -1,0 +1,122 @@
+.header {
+  padding-left: 20px; }
+
+.options {
+  background-color: white;
+  margin-left: 5px; }
+
+.available {
+  border: 1px solid lightgrey;
+  padding-left: 0;
+  padding-right: 0; }
+
+.applied {
+  border: 1px solid lightgrey;
+  padding-left: 0;
+  padding-right: 0; }
+
+.audience {
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding-left: 0;
+  padding-right: 0; }
+
+a:hover {
+  color: skyblue;
+  text-decoration: none; }
+
+.options-header {
+  color: blue;
+  background-color: lightgrey;
+  padding: 5px; }
+
+.options-header img {
+  float: right; }
+
+.parent-text {
+  margin: 3%; }
+
+.child-text {
+  margin-left: 2%;
+  margin-top: 1%; }
+
+.anchor-text {
+  color: skyblue; }
+
+.anchor-text.last {
+  border-bottom: none; }
+
+.Appliedbuttons {
+  margin-top: 17%; }
+
+.btn.apBtn {
+  width: 100%;
+  font-size: 12px;
+  margin-left: 0;
+  padding: 5px;
+  text-align: left; }
+
+img {
+  margin-top: 10px;
+  height: 20px; }
+
+.btns {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.btn.save {
+  font-size: 12px;
+  margin-right: 5px; }
+
+.btn.cancel {
+  font-size: 12px; }
+
+.disclosure {
+  margin-top: 20px;
+  margin-left: 15px;
+  width: 100%; }
+
+.aud-buttons {
+  margin-top: 10px; }
+
+.btn.btn-aud {
+  font-size: 12px;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding: 4px; }
+
+.MuiButtonBase-root-27.classes-state-btn-aud, .MuiButton-root-1.classes-state-btn-aud {
+  font-size: 12px;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: auto;
+  text-transform: none;
+  font-weight: normal;
+  background-color: #6c757d;
+  color: #fff; }
+
+.classes-state-root-btn-cancel {
+  margin-left: 5px !important; }
+
+.headings {
+  background-color: lightgrey;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  font-size: 12px;
+  padding: 5px; }
+
+.headings img {
+  float: right;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 0px; }
+
+.input-group {
+  margin: 5px; }
+
+.group-addon img {
+  margin-top: 8px; }

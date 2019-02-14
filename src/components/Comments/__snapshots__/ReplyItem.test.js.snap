@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommentControls>  <CommentControls> snapshot  1`] = `
+<ReplyItem
+  classes={
+    Object {
+      "button": "ReplyItem-button-5",
+      "card": "ReplyItem-card-1",
+      "cardContent": "ReplyItem-cardContent-3",
+      "fabButton": "ReplyItem-fabButton-6",
+      "spacing": "ReplyItem-spacing-4",
+      "wrapper": "ReplyItem-wrapper-2",
+    }
+  }
+/>
+`;

@@ -1,0 +1,53 @@
+.App-header {
+  background-color: #222;
+  height: 90px;
+  padding: 20px;
+  color: white; }
+
+.headerTxt {
+  margin-left: 2%;
+  border-radius: 8px;
+  padding: 10px;
+  width: 70%;
+  display: inline-block;
+  background-color: inherit;
+  border: 1px solid lightblue;
+  color: #fff; }
+
+.lbl-comments {
+  margin-left: 50%;
+  font-size: 12px; }
+
+.badge {
+  border-radius: 2.25em;
+  padding: 10px;
+  font-size: 10px;
+  background-color: lightblue;
+  margin-left: 5%; }
+
+.card {
+  border: none; }
+
+.card-grp {
+  border: none; }
+
+.card-header {
+  background-color: lightblue; }
+
+.cardBody {
+  padding: 0; }
+
+.cardNumber {
+  padding-top: 7%;
+  padding-left: 3%;
+  color: #fff;
+  background-color: lightgray;
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 25px; }
+
+.classes-state-root {
+  height: 45px;
+  width: 90PX;
+  border-radius: 0px !important;
+  margin-left: 2px !important; }

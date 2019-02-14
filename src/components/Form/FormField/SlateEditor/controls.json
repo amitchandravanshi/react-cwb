@@ -1,0 +1,158 @@
+[
+  {
+    "type": "bold",
+    "icon": "format_bold",
+    "node": "wrap"
+  },
+  {
+    "type": "italic",
+    "icon": "format_italic",
+    "node": "wrap"
+  },
+  {
+    "type": "underlined",
+    "icon": "format_underlined",
+    "node": "wrap"
+  },
+
+  {
+    "type": "superscript",
+    "icon": "superscript",
+    "node": "wrap"
+  },
+  {
+    "type": "block-quote",
+    "icon": "format_quote",
+    "node": "block"
+  },
+  {
+    "type": "numbered-list",
+    "icon": "format_list_numbered",
+    "node": "block"
+  },
+  {
+    "type": "bulleted-list",
+    "icon": "format_list_bulleted",
+    "node": "block"
+  },
+  {
+    "type": "copyright",
+    "icon": "©",
+    "node": "special"
+  },
+  {
+    "type": "dagger",
+    "icon": "†",
+    "node": "special"
+  },
+  {
+    "type": "trademark",
+    "icon": "™",
+    "node": "special"
+  },
+  {
+    "type": "Registered",
+    "icon": "®",
+    "node": "special"
+  },
+  {
+    "type": "double-dagger",
+    "icon": "‡",
+    "node": "special"
+  },
+  {
+    "type": "En-Dash",
+    "icon": "–",
+    "node": "special"
+  },
+  {
+    "type": "Em-Dash",
+    "icon": "—",
+    "node": "special"
+  },
+  {
+    "type": "Right-double-quotation-mark",
+    "icon": "”",
+    "node": "special"
+  },
+  {
+    "type": "Left-double-quotation-mark",
+    "icon": "“",
+    "node": "special"
+  },
+  {
+    "type": "Horizontal-Ellipsis",
+    "icon": "…",
+    "node": "special"
+  },
+  {
+    "type": "Minus-sign-Hyphen",
+    "icon": "-",
+    "node": "special"
+  },
+  {
+    "type": "Right-Single-Quotation-Mark",
+    "icon": "’",
+    "node": "special"
+  },
+  {
+    "type": "Left-Single-Quotation-Mark",
+    "icon": "‘",
+    "node": "special"
+  },
+  {
+    "type": "Division-Sign",
+    "icon": "÷",
+    "node": "special"
+  },
+  {
+    "type": "Euro-Sign",
+    "icon": "€",
+    "node": "special"
+  },
+  {
+    "type": "Fraction-One-Quarter",
+    "icon": "¼",
+    "node": "special"
+  },
+  {
+    "type": "Fraction-One-Half",
+    "icon": "½",
+    "node": "special"
+  },
+  {
+    "type": "Fraction-Three-Quaters",
+    "icon": "¾",
+    "node": "special"
+  },
+  {
+    "type": "Pound-Sign",
+    "icon": "£",
+    "node": "special"
+  },
+  {
+    "type": "Multiplication-Sign",
+    "icon": "×",
+    "node": "special"
+  },
+  {
+    "type": "equivalency-sign-Tilde",
+    "icon": "~",
+    "node": "special"
+  },
+  {
+    "type": "Service-Mark",
+    "icon": "℠",
+    "node": "special"
+  },
+  {
+    "type": "Yen-sign",
+    "icon": "¥",
+    "node": "special"
+  },
+  {
+    "type": "link",
+    "icon": "insert_link",
+    "node": "link"
+  }
+]

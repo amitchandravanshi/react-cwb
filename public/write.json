@@ -1,0 +1,564 @@
+{
+    "assignment": {
+        "disclosureTags": [{
+                "parent": "sc:audience",
+                "title": null,
+                "child": [{
+                        "name": "adviser",
+                        "isPercolate": true
+                    },
+                    {
+                        "name": "RecordkeeperDirect American Funds",
+                        "isPercolate": false
+                    }
+                ]
+            },
+            {
+                "parent": "sc:channel",
+                "title": null,
+                "child": [{
+                    "name": "web",
+                    "isPercolate": true
+                }]
+            },
+            {
+                "parent": "sc:product",
+                "title": null,
+                "child": [{
+                        "name": "BFA",
+                        "isPercolate": false
+                    },
+                    {
+                        "name": "DWGI",
+                        "isPercolate": false
+                    },
+                    {
+                        "name": "NWF",
+                        "isPercolate": false
+                    }
+                ]
+            },
+            {
+                "parent": "sc:feeStructure",
+                "title": null,
+                "child": [{
+                    "name": "Retail",
+                    "isPercolate": false
+                }]
+            },
+            {
+                "parent": "sc:statistic",
+                "title": null,
+                "child": []
+            },
+            {
+                "parent": "sc:feeStructureCharacteristic",
+                "title": null,
+                "child": []
+            },
+            {
+                "parent": "sc:materialCharacteristic",
+                "title": null,
+                "child": []
+            },
+            {
+                "parent": "sc:productCharacteristic",
+                "title": null,
+                "child": []
+            },
+            {
+                "parent": "sc:general",
+                "title": null,
+                "child": []
+            },
+            {
+                "parent": "sc:widget",
+                "title": null,
+                "child": []
+            }
+        ],
+        "templateName": "web-template",
+        "id": 908,
+        "percolateId": "post:41714771",
+        "userInitials": "INYVIKN",
+        "templateId": 1,
+        "assignmentName": "1813193 RIA_March Topicals_2018_Web",
+        "updatedAt": "2018-11-23 19:06:40.505",
+        "workfrontJobId": "job123",
+        "proofURL": "https://capgrouptest.proofhq.com/proof/jkGWJ6Xi5xPEPpbRn6iONpv8Do3WG8HSb05SApbEIDAsbCEINv|,https://capgrouptest.proofhq.com/proof/RNYOKrdi6qPFBV6Jr8TxrpWZiJhNSZ3rbJPjKoTLtTyqP6XPcX|,https://capgrouptest.proofhq.com/proof/7EDmuRUnqTPvvKhdmqkI4pUn00zLXz0bbXia9Tp5wp4FDcs8ve|https://capgrouptest.proofhq.com/proof/Pcc5d6Es11PbeoHOahdCcpzUJaHC5cIcbFxcw3Dw59QmLlg8AL",
+        "proofFileId": "46173432"
+    },
+    "copy": {
+        "fields": [{
+                "fieldName": "SEO Metadescription",
+                "fieldValue": "James Frazier of Frazier Financial Advisors shows how he transitioned from giving tax advice as a CPA to being a full RIA practice with tax professionals. ",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "TextField",
+                    "maxLength": "160",
+                    "fieldHelperText": null
+                },
+                "fieldId": 1
+            },
+            {
+                "fieldName": "Short Headline",
+                "fieldValue": "<p>Only <strong>required </strong>if <a href='https: //docs.slatejs.org/slate-core/data' target='_blank'>long</a> <a href='https://bitbucket.capgroup.com/projects/DC/repos/creative-workbench/browse/cwb-ui/ui/src/api/writeApi.js' target='_blank'>headline</a> is over 60 <a href='http://x997572:37200/api/cwb/v1/assignment/post:41714771' target='_blank'>characters</a> </p>",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "Editor",
+                    "maxLength": "50",
+                    "fieldHelperText": null
+                },
+                "fieldId": 2
+            },
+            {
+                "fieldName": "Long Headline",
+                "fieldValue": "<p>Long Headline</p>",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "Editor",
+                    "maxLength": "200",
+                    "fieldHelperText": null
+                },
+                "fieldId": 3
+            },
+            {
+                "fieldName": "Subhead",
+                "fieldValue": "<p></p>",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "Editor",
+                    "maxLength": "200",
+                    "fieldHelperText": null
+                },
+                "fieldId": 4
+            },
+            {
+                "fieldName": "Body",
+                "fieldValue": "<p><strong>Building a Practice on Tax<br/></strong></p><p></p><p><strong>Key Takeaways<br/></strong></p><p></p><p> with my tax return?� used to be the only thing new clients would ask James Frazier when he started out as a CPA. But preparing tax returns is more of a dessert than the main course now that he�s transitioned his Ohio-based tax business into a full-service advisory firm. <br/></p><p></p><p>But are tax",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "Editor",
+                    "maxLength": "0",
+                    "fieldHelperText": null
+                },
+                "fieldId": 5
+            }
+        ]
+    },
+    "graphics": [{
+        "graphicsId": "",
+        "name": "",
+        "location": "",
+        "shortCode": "",
+        "fields": [{
+                "fieldName": "This is a Photo",
+                "fieldValue": "true",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "CheckBox",
+                    "maxLength": "0",
+                    "fieldHelperText": null
+                },
+                "fieldId": 6
+            },
+            {
+                "fieldName": "Graphic Headline",
+                "fieldValue": "",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "TextField",
+                    "maxLength": "80",
+                    "fieldHelperText": null
+                },
+                "fieldId": 7
+            },
+            {
+                "fieldName": "Graphic Subhead 1",
+                "fieldValue": "",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "TextField",
+                    "maxLength": "80",
+                    "fieldHelperText": null
+                },
+                "fieldId": 8
+            },
+            {
+                "fieldName": "Graphic Subhead 2",
+                "fieldValue": "",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "TextField",
+                    "maxLength": "80",
+                    "fieldHelperText": null
+                },
+                "fieldId": 9
+            },
+            {
+                "fieldName": "Add Graphic",
+                "fieldValue": "",
+                "properties": {
+                    "minLength": "80",
+                    "fieldType": "FileUpload",
+                    "maxLength": "0",
+                    "fieldHelperText": null
+                },
+                "fieldId": 10
+            },
+            {
+                "fieldName": "Graphic Source",
+                "fieldValue": "",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "MultiText",
+                    "maxLength": "125",
+                    "fieldHelperText": null
+                },
+                "fieldId": 11
+            },
+            {
+                "fieldName": "Graphic Alt Text",
+                "fieldValue": "",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "TextField",
+                    "maxLength": "80",
+                    "fieldHelperText": null
+                },
+                "fieldId": 13
+            },
+            {
+                "fieldName": "Add Disclosure",
+                "fieldValue": "",
+                "properties": {
+                    "minLength": "0",
+                    "fieldType": "TextField",
+                    "maxLength": "200",
+                    "fieldHelperText": null
+                },
+                "fieldId": 14
+            }
+        ]
+    }],
+    "twitter": [{
+            "name": "",
+            "status": null,
+            "twitterId": "",
+            "fields": [{
+                    "fieldName": "Post",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "116",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 20
+                },
+                {
+                    "fieldName": "Headline",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "70",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 21
+                },
+                {
+                    "fieldName": "Image Creative",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "FileUpload",
+                        "maxLength": "0",
+                        "fieldHelperText": "Image Creative (1200px wide, 627px H) or (800px W x 800px H)"
+                    },
+                    "fieldId": 26
+                }
+            ]
+        },
+        {
+            "name": "Chrysanthemum.jpg",
+            "status": null,
+            "twitterId": "1237",
+            "fields": [{
+                    "fieldName": "Post",
+                    "fieldValue": "<p>kLASMdf;dslkf</p>",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "116",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 20
+                },
+                {
+                    "fieldName": "Headline",
+                    "fieldValue": "<p>lksdjfds;lfkda</p>",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "70",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 21
+                },
+                {
+                    "fieldName": "Image Creative",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "FileUpload",
+                        "maxLength": "0",
+                        "fieldHelperText": "Image Creative (1200px wide, 627px H) or (800px W x 800px H)"
+                    },
+                    "fieldId": 26
+                }
+            ]
+        },
+        {
+            "name": "Penguins.jpg",
+            "status": null,
+            "twitterId": "1241",
+            "fields": [{
+                    "fieldName": "Post",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "116",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 20
+                },
+                {
+                    "fieldName": "Headline",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "70",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 21
+                },
+                {
+                    "fieldName": "Image Creative",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "FileUpload",
+                        "maxLength": "0",
+                        "fieldHelperText": "Image Creative (1200px wide, 627px H) or (800px W x 800px H)"
+                    },
+                    "fieldId": 26
+                }
+            ]
+        }
+    ],
+    "linkedIn": [{
+            "name": "",
+            "status": null,
+            "linkedinId": "",
+            "fields": [{
+                    "fieldName": "Post",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "150",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 24
+                },
+                {
+                    "fieldName": "Headline",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "70",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 25
+                },
+                {
+                    "fieldName": "Image Creative",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "FileUpload",
+                        "maxLength": "0",
+                        "fieldHelperText": "Image Creative (1200x627px)"
+                    },
+                    "fieldId": 28
+                }
+            ]
+        },
+        {
+            "name": "Koala.jpg",
+            "status": null,
+            "linkedinId": "1243",
+            "fields": [{
+                    "fieldName": "Post",
+                    "fieldValue": "<p>test1</p>",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "150",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 24
+                },
+                {
+                    "fieldName": "Headline",
+                    "fieldValue": "<p>test2</p>",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "70",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 25
+                },
+                {
+                    "fieldName": "Image Creative",
+                    "fieldValue": "Koala.jpg",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "FileUpload",
+                        "maxLength": "0",
+                        "fieldHelperText": "Image Creative (1200x627px)"
+                    },
+                    "fieldId": 28
+                }
+            ]
+        },
+        {
+            "name": "Hydrangeas.jpg",
+            "status": null,
+            "linkedinId": "1245",
+            "fields": [{
+                    "fieldName": "Post",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "150",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 24
+                },
+                {
+                    "fieldName": "Headline",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "70",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 25
+                },
+                {
+                    "fieldName": "Image Creative",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "FileUpload",
+                        "maxLength": "0",
+                        "fieldHelperText": "Image Creative (1200x627px)"
+                    },
+                    "fieldId": 28
+                }
+            ]
+        }
+    ],
+    "facebook": [{
+            "name": "",
+            "status": null,
+            "facebookId": "",
+            "fields": [{
+                    "fieldName": "Post",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "150",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 22
+                },
+                {
+                    "fieldName": "Headline",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "100",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 23
+                },
+                {
+                    "fieldName": "Image Creative",
+                    "fieldValue": "",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "FileUpload",
+                        "maxLength": "0",
+                        "fieldHelperText": "Image Creative (1200x627px)"
+                    },
+                    "fieldId": 27
+                }
+            ]
+        },
+        {
+            "name": "Hydrangeas.jpg",
+            "status": null,
+            "facebookId": "1247",
+            "fields": [{
+                    "fieldName": "Post",
+                    "fieldValue": "<p>jkwhfpds</p>",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "150",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 22
+                },
+                {
+                    "fieldName": "Headline",
+                    "fieldValue": "<p>kjfdaa</p>",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "Editor",
+                        "maxLength": "100",
+                        "fieldHelperText": null
+                    },
+                    "fieldId": 23
+                },
+                {
+                    "fieldName": "Image Creative",
+                    "fieldValue": "Hydrangeas.jpg",
+                    "properties": {
+                        "minLength": "0",
+                        "fieldType": "FileUpload",
+                        "maxLength": "0",
+                        "fieldHelperText": "Image Creative (1200x627px)"
+                    },
+                    "fieldId": 27
+                }
+            ]
+        }
+    ],
+    "backups": [{
+        "backupId": "",
+        "name": "",
+        "location": ""
+    }]
+}

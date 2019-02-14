@@ -1,0 +1,559 @@
+@import "variables";
+@import "fonts";
+body {
+  background-color: $app-bg-color;
+}
+
+.App {
+  text-align: left;
+  font-family: AvenirNextLT-Regular;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.tab-container {
+  width: 100%;
+  padding: 24px 125px 24px 100px;
+  .tab-header {
+    padding-left: 0px !important;
+    h2 {
+      height: 38px;
+      font-size: 28px;
+      color: $header-text-color;
+    }
+  }
+  .tab-nav {
+    padding-left: 0 !important;
+    min-height: initial !important;
+    padding-bottom: 20px;
+    button {
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 16px;
+      &:hover {
+        background-color: transparent;
+        font-family: $font-bold;
+      }
+    }
+    .tab-nav-divider {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .tab-subhead {
+    background-color: $subhead-bg-color !important;
+    padding: 0.6rem 1rem !important;
+    border-radius: 2px;
+    font-family: $font-bold !important;
+    margin-bottom: 20px;
+    color: $subhead-text-color;
+    button {
+      float: left;
+      margin: 0px 10px 0px 0px;
+      padding: 0;
+      width: 24px;
+      height: 24px;
+    }
+    h3 {
+      font-family: $font-bold !important;
+    }
+  }
+  .content-block {
+    background-color: $content-block-bg-color;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 35px !important;
+    display: grid;
+  }
+}
+
+button {
+  margin-left: 0px !important;
+}
+
+.research-assignment-grid {
+  margin-left: 42px;
+  margin-bottom: 20px;
+  ul {
+    margin: 0;
+  }
+}
+
+.write-block {
+  .popup-content {
+    width: auto !important;
+    max-width: 500px !important;
+    padding: 15px !important;
+  }
+  .tab-subhead {
+    h3 {
+      display: inline-block;
+      & + svg {
+        width: auto;
+        color: #44959f;
+        margin-left: 10px;
+        margin-top: -4px;
+      }
+    }
+  }
+  margin: 0px;
+  .write-upload-file-name {
+    color: $write-blue-text-color;
+  }
+  .write-backups {
+    .write-backups-items {
+      & > div {
+        margin: 20px 0px;
+      }
+    }
+  }
+  .add-button {
+    color: $add-button-text-color;
+    padding: 10px;
+    cursor: pointer;
+    display: block !important;
+    width: 100%;
+    background-color: $add-button-bg-color;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 6px 0px 12px 0px;
+    width: 100%;
+    text-align: center;
+    span {
+      display: block;
+    }
+  }
+  .form-input-item,
+  .form-input-multi-item,
+  .form-input-editor {
+    margin-top: 0px;
+    width: 100%;
+    .form-input {
+      margin-top: 16px;
+      margin-bottom: 8px;
+      label {
+        font-size: 16px;
+        font-family: $font-bold;
+        color: $write-label-text-color !important;
+        transform: none;
+        position: relative;
+        & + div {
+          margin-top: 0px;
+        }
+      }
+      input,
+      textarea,
+      .slateWrapper {
+        border-color: $write-input-border-color !important;
+        min-height: 48px;
+        padding: 12px;
+      }
+      input {
+        padding-top: 0px;
+      }
+    }
+    .character-count {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: auto;
+    }
+  }
+  .form-input-multi-item {
+    label {
+      top: 0px;
+    }
+    & label + div {
+      padding-top: 0;
+    }
+    .character-count {
+      bottom: 17px;
+    }
+  }
+  .form-input-editor {
+    .form-input {
+      width: 100%;
+    }
+    & label + div {
+      padding-top: 12px !important;
+    }
+  }
+  .write-graphics-block {
+    .graphic-hdr {
+      font-size: 24px;
+      font-family: $font-bold;
+    }
+    .write-short-code-box {
+      width: 100%;
+      border-color: $write-short-code-border !important;
+    }
+    button {
+      padding: 0px;
+      margin: 0px;
+      color: $write-blue-link-color;
+      text-transform: none !important;
+    }
+    .write-upload-box {
+      margin: 20px 0px 15px 0px;
+      border-color: $write-input-border-color !important;
+      border-radius: 5px;
+      button {
+        min-height: 48px;
+        border-radius: 5px;
+        color: $write-upload-link-color;
+        padding: 0px 40px;
+        margin-right: 20px;
+      }
+    }
+    .write-graphics-add-section {
+      margin-top: 35px;
+    }
+  }
+  .write-backups-block {
+    .backup-card {
+      margin: 10px 20px 10px 0px;
+      display: block;
+      float: left;
+      min-width: 200px;
+      width: 30%;
+    }
+    .write-backup-card {
+      background-color: $write-backup-card-bg-color;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    .write-backup-card-hdr {
+      padding: 10px 20px;
+      span {
+        font-size: 16px;
+        font-family: $font-bold;
+      }
+      a,
+      button {
+        padding: 0px 20px 0px 0px;
+        margin: 0px;
+        span {
+          font-size: 13px;
+          text-transform: none;
+        }
+      }
+    }
+    .write-backup-card-file {
+      padding: 10px 20px;
+    }
+    .write-upload-box {
+      margin: 0px;
+      border-color: $write-input-border-color !important;
+      border-radius: 5px;
+      background-color: $write-backup-browse-bg-color;
+      button {
+        min-height: 48px;
+        border-radius: 5px;
+        color: $write-upload-link-color;
+        padding: 0px 40px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.review-draft-block {
+  padding-right: 30px;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+
+.nav-link {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.tab-link {
+  color: red;
+}
+
+.nav-tabs a.nav-link:hover {
+  color: red;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: whitesmoke;
+}
+
+.nav-tabs .nav-link.active:hover {
+  color: red;
+  background-color: whitesmoke;
+}
+
+.my-tab-header {
+  background-color: lightblue;
+}
+
+.nav-tabs a.my-active-tab-header.active,
+.nav-tabs a.my-active-tab-header.active:hover {
+  background-color: cornflowerblue;
+}
+
+.tab-content-default {
+  height: 50px;
+  background-color: whitesmoke;
+}
+
+.my-tab-content {
+  height: 50px;
+  background-color: green;
+}
+
+.tab-container-with-border {
+  border: 1px dashed navy;
+  height: 30px;
+}
+
+.tab-container-with-green-border {
+  border: 2px solid green;
+}
+
+.tab-header-bold {
+  font-weight: bold;
+}
+
+.tab-content-yellow {
+  background-color: lightgoldenrodyellow;
+}
+
+.tab-content-green {
+  color: green;
+}
+
+.nav-tabs a.nav-link:hover {
+  color: #fff;
+}
+
+.nav-tabs .nav-item {
+  width: 20%;
+  border-radius: 8px;
+  background-color: lightgray;
+  margin: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav-tabs .nav-item a {
+  height: 60px;
+  padding-top: 8%;
+}
+
+.nav-item::after {
+  border: 1px solid #17a2b8;
+  position: absolute;
+}
+
+.nav-tabs a.tab-header-blue.active {
+  color: #fff;
+  background-color: #17a2b8;
+  border-radius: 8px;
+}
+
+.nav-tabs .nav-link.active:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.tabWidth .nav.nav-tabs .nav-item {
+  width: 15%;
+  margin: 5px;
+}
+
+.tabWidth .nav.nav-tabs .nav-item a {
+  height: 40px;
+  padding-top: 6%;
+}
+
+.btn {
+  margin-left: 20px;
+}
+
+a.btn {
+  font-size: 12px;
+}
+
+.searchTxt {
+  margin-left: 2%;
+  border-radius: 8px;
+  padding: 10px;
+  width: 30%;
+  display: inline-block;
+}
+
+.resource {
+  margin-top: 2%;
+}
+
+.line {
+  border: 1px solid blue;
+  width: 100%;
+  margin: 2%;
+  background-color: #fff;
+}
+
+.nav-tabs {
+  border-bottom: 5px solid #17a2b8;
+  margin-bottom: 2%;
+}
+
+.percolate {
+  color: #2a9fd8 !important;
+}
+
+.writeBody {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.table.reaserch thead tr th {
+  font-weight: normal;
+}
+
+.table.reaserch tbody tr td {
+  font-weight: bold;
+}
+
+.backUp {
+  background-color: lightgray;
+  margin-right: 3%;
+  padding: 15px;
+}
+
+.page-main-description {
+  margin-bottom: 20px;
+}
+
+.review-block {
+  .review-subsection {
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    border-bottom: 2px dashed $review-subsect-bdr-color;
+  }
+  .review-item {
+    h3 {
+      font-size: 13px;
+      color: $review-header-text-color;
+      margin-bottom: 5px;
+    }
+    margin-bottom: 30px;
+    span {
+      line-height: 1.5;
+      font-size: 18px;
+      height: 24px;
+      color: $review-body-text-color;
+    }
+  }
+  .review-backup-link {
+    display: block;
+    padding-bottom: 10px;
+    p {
+      color: $review-backup-Link-color;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .review-graphic-header {
+    margin-top: 30px;
+    &:first-of-type {
+      margin-top: 0px;
+    }
+  }
+  .review-disclosure-block {
+    h3 {
+      margin-bottom: 20px;
+    }
+    .review-rendition-header {
+      margin-top: 30px;
+    }
+  }
+  .review-disclosure-item,
+  .review-rendition-path-item {
+    margin-bottom: 10px;
+  }
+  a[role="button"] {
+    width: 100%;
+    background-color: $review-button-bg-color;
+    color: $review-button-text-color;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .review-graphics-block,
+  .review-summary-block {
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+    ul {
+      &.review-item {
+        padding-left: 0px;
+        ul li {
+          list-style-type: disc;
+        }
+      }
+    }
+  }
+  .review-summary-graphic-name {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 13px !important;
+  }
+}
+
+.drawer_block {
+  &.drawerOpen_false {
+    ul[role="menu"] {
+      a.tabButton {
+        margin: 8px;
+        background-color: transparent !important;
+        transition: background 0.2s linear;
+        color: #aab2b5;
+        span {
+          color: #fff;
+        }
+      }
+      .tabButtonIsActive {
+        svg {
+          color: #44959f;
+        }
+      }
+    }
+  }
+  &.drawerOpen_true {
+    ul[role="menu"] {
+      a.tabButton {
+        margin: 8px 20px;
+        transition: background 0.2s linear;
+        color: #fff;
+        svg {
+          margin-right: 0px;
+        }
+        svg,
+        span {
+          color: #fff;
+        }
+        span {
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "assignments": [{
+            "id": "post:41714771",
+            "title": "1813193 RIA_March Topicals_2018_Web",
+            "status": null,
+            "liveAt": "2018-08-17T20:57:00+00:00",
+            "channel": "Web",
+            "template": "Web Article",
+            "team": "ASRP"
+        },
+        {
+            "id": "post:42617442",
+            "title": "INYVIKN test content2",
+            "status": null,
+            "liveAt": null,
+            "channel": "Web",
+            "template": "Web Article",
+            "team": "ASRP"
+        }
+    ]
+}

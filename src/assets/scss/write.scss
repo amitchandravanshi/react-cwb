@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.slateWrapper {
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  .material-icons {
+      font-size: 28px;
+    }
+}
+.SlateEditorLabel {
+  font-size: 16px;
+  font-weight: 300;
+  color: #0a3039;
+}
+.slateToolbar {
+  padding: 0;
+  margin: 0;
+  min-height: 10px;
+  padding: 10px 0;
+}
+.slateEditor {
+  padding: 0 8px;
+}
+
+blockquote {
+  border-left: 2px solid #ddd;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10px;
+  color: #aaa;
+  font-style: italic;
+}
+code {
+  font-family: monospace;
+  background-color: #eee;
+  padding: 3px;
+  color: #000;
+}

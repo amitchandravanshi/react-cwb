@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommentHeader>  <CommentHeader> snapshot  1`] = `
+<CommentMsg
+  classes={
+    Object {
+      "card": "CommentMsg-card-1",
+      "content": "CommentMsg-content-2",
+    }
+  }
+/>
+`;

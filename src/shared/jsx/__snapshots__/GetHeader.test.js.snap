@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GeHeader> component  shallow copy component 1`] = `
+<div>
+  <header
+    className="App-header"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-4"
+      >
+        <input
+          className="form-control headerTxt"
+          placeholder="CAP-IDEAS-4-roles"
+          type="text"
+        />
+        <WithStyles(Button)
+          classes={
+            Object {
+              "root": "classes-state-root",
+            }
+          }
+          color="primary"
+          variant="contained"
+        >
+          Save
+        </WithStyles(Button)>
+      </div>
+      <div
+        className="col-md-8"
+      >
+        <div
+          className="lbl-comments"
+        >
+          <label>
+            Show Resolved Comments
+          </label>
+          <WithStyles(ShareWithOthers) />
+          <span
+            className="badge badge-light"
+          >
+            GP
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;

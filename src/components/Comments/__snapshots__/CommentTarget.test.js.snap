@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommentTarget>  <CommentControls> snapshot  1`] = `
+<CommentTarget
+  classes={
+    Object {
+      "root": "CommentTarget-root-1",
+    }
+  }
+/>
+`;
